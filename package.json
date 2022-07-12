@@ -1,4 +1,73 @@
-{
+"currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BbcJMuJp+X+htHWqwPEFiiI8eIIITKPCF8mZ+bHZDMIT",
+                "privKey": "SNhMYtMRhke79AAx1qrRurr/94CzkkeSt52Nw4h4lVk="
+              },
+              "lastRemoteEphemeralKey": "BWUoZwG2mBPdQkhgTo1trmajl237Kcj4XMMdWLHzxdt3",
+              "previousCounter": 0,
+              "rootKey": "B4ZSbPEpJ7JwLb7dLv+sh0ieOsl1yvyK4P0Njm75m3w="
+            },
+            "indexInfo": {
+              "baseKey": "BRVjVPKHEpYQVNxB/mnkNlUuFpyz+OwFXx3USXvhgQUJ",
+              "baseKeyType": 2,
+              "closed": -1,
+              "used": 1657603034085,
+              "created": 1657603034085,
+              "remoteIdentityKey": "BYViZ1t53NlGBN3j+2Rz6CmaDVUWP4joA72xRObFtsZT"
+            },
+            "_chains": {
+              "BWUoZwG2mBPdQkhgTo1trmajl237Kcj4XMMdWLHzxdt3": {
+                "chainKey": {
+                  "counter": 0,
+                  "key": "Y/4p9x+qypOKE5ADY9TZ2KMgpjsQ3agj34yk+lu1nCU="
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BbcJMuJp+X+htHWqwPEFiiI8eIIITKPCF8mZ+bHZDMIT": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "kld8RoVbEJ2uclR92aCqXL4CJnqol+J+nWBeAgVOo4c="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            }
+          }
+        },
+        "version": "v1"
+      }
+    },
+    "appStateSyncKeys": {
+      "AAAAABxO": {
+        "keyData": "U9LoPw9g5Q033tCkrq1S73l7L7m/rT3W70+pMOL8kLM=",
+        "fingerprint": {
+          "rawId": 509125182,
+          "currentIndex": 1,
+          "deviceIndexes": [
+            0,
+            1
+          ]
+        },
+        "timestamp": "1657603029242"
+      }
+    },
+    "senderKeys": {
+      "status@broadcast::94729458130::0": [
+        {
+          "senderKeyId": 2138858541,
+          "senderChainKey": {
+            "iteration": 15,
+            "seed": "9121qscOBJFCqyr/xfgRNJERmEKl6aAEE+H1rP2LJOg="
+          },
+          "senderSigningKey": {
+            "public": "BY45iaXaNuZCcOBL+/gPvvTWdf9ffD7TCmm5Bw8erzx+"
+          }
+        }
+      ]
+    }
+  }
+}{
   "name": "Red-Dragon-Bot",
   "version": "2.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
